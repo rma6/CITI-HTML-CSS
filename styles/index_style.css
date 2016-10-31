@@ -1,0 +1,49 @@
+body{
+	background-image: URL("../media/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1%;
+}
+
+.text{	
+	text-align: left;
+	vertical-align: top;
+	margin-left: 1%;
+}
+.text:first-child{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 20px;
+}
+
+.title{
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Aldrich", Arial;
+	font-size: 170%;
+}
+
+.about{
+	padding-right: 2%;
+	padding-left: 3%; 
+	padding-bottom: 1%;
+	font-family: 'VT323', sans-serif;
+	font-size: 145%;
+}
+
+.profile_img{
+	border-radius: 200px;
+}
+
+.ico{
+	padding-right: 1%;
+	height: 150px;
+	width: 150px;
+}
+
+.list{
+	list-style-image: url("../media/and.png");
+	font-family: 'VT323', sans-serif;
+	font-size: 130%;
+}
